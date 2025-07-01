@@ -35,6 +35,7 @@ function SignUp(){
     };
     return(
         <form onSubmit={handleSubmit}>
+            <h1>Manual Validation</h1>
             <div>
                 <label>Email</label>
                 <input type="text" name="email" value={formData.email} onChange={handleChange} />
